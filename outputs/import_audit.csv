@@ -1,0 +1,77 @@
+file,ticker,rows,observed_closes,status,reason,sha256
+AGM.csv,AGM,735,735,already_present,identical existing file,a74ad096c17497c8935e3861df1610e10967b1df4a268832e76a6de86fcbbf81
+AKT.csv,AKT,735,735,already_present,identical existing file,09cc0831441afff42c8b244c5b2e7e7e1b5c0ace5152ac61c26b876d71310ff2
+Cours_ADH  _2023-11-10_2026-11-09.csv,ADH,736,736,imported,validated ticker and usable history,176343d1db29cffcff7377e188594f9093b6be226992b7c7b0ba4723164e0c99
+Cours_ADI  _2023-11-10_2026-11-09.csv,ADI,735,735,imported,validated ticker and usable history,a7c248774a0513bb758ee2b638b505c589d886c4e4da4e65483a996f018e52ce
+Cours_ALM  _2023-11-10_2026-11-09.csv,ALM,735,735,imported,validated ticker and usable history,aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_ARD  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_ARD  _2023-11-10_2026-11-09.csv: filename says ARD, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_ATH  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_ATH  _2023-11-10_2026-11-09.csv: filename says ATH, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_ATW  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_ATW  _2023-11-10_2026-11-09.csv: filename says ATW, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_BAL  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_BAL  _2023-11-10_2026-11-09.csv: filename says BAL, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_BCI  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_BCI  _2023-11-10_2026-11-09.csv: filename says BCI, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_BCP  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_BCP  _2023-11-10_2026-11-09.csv: filename says BCP, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_BOA  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_BOA  _2023-11-10_2026-11-09.csv: filename says BOA, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_CAP  _2023-11-10_2026-11-09.csv,CAP,224,224,imported,validated ticker and usable history,e3e4056e86f29316675ee747fff82931b3d94c4b1990d6c8681f99cdf72622ca
+Cours_CDM  _2023-11-10_2026-11-09.csv,CDM,736,736,imported,validated ticker and usable history,942c0fd31f8af5a8a497c762f9dcdb57d4573a492f32296066e5c85688a4cce3
+Cours_CFG_2023-11-10_2026-11-09.csv,CFG,710,710,imported,validated ticker and usable history,1da667deb77086c401eafb350aa68afb4f015fe07ee593cd3275ce45e870d027
+Cours_CIH  _2023-11-10_2026-11-09.csv,CIH,736,736,imported,validated ticker and usable history,71fefa562af9ee282c82c728586d014652a8103a52c56936c56fd4b7aee6fbf0
+Cours_CMA  _2023-11-10_2026-11-09.csv,CMA,736,736,imported,validated ticker and usable history,b4e917996789f479b82bd8803277bbc221c77461b8480812c28c704342f36643
+Cours_CMG  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_CMG  _2023-11-10_2026-11-09.csv: filename says CMG, contents say ['COL']",dcdeef4b2a9add27a242cd68ce6fdb5ab0c4e15901bc08d36d0a89f050014cd1
+Cours_CMT  _2023-11-10_2026-11-09.csv,CMT,736,699,imported,validated ticker and usable history,e8e70a67661889b443f344b96f06c43f6caf6316f0f31bf57a42396c5b5bbecd
+Cours_COL_2023-11-10_2026-11-09.csv,COL,736,736,imported,validated ticker and usable history,dcdeef4b2a9add27a242cd68ce6fdb5ab0c4e15901bc08d36d0a89f050014cd1
+Cours_CRS_2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_CRS_2023-11-10_2026-11-09.csv: filename says CRS, contents say ['ALM']",aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2
+Cours_CSR  _2023-11-10_2026-11-09.csv,CSR,736,736,imported,validated ticker and usable history,0d0d0e841a73f934f206a4bc9e7c2f2ec06d4298491b2fb552c23e8566693482
+Cours_CTM  _2023-11-10_2026-11-09.csv,CTM,736,736,imported,validated ticker and usable history,bc96ae67df796e2e3a91638fa2d7647e2189ed78d563e1c8220356adff5d2b47
+Cours_DHO  _2023-11-10_2026-11-09.csv,DHO,736,736,imported,validated ticker and usable history,75ab9fe9901efcf9dce7fd5506ca1fe3b2db2f5f2fe4a880842874ca7da97d0c
+Cours_DIS_2023-11-10_2026-11-09.csv,DIS,736,1,excluded,fewer than two observed closes,99f60db53947beb36cbf43e3847cc4079f7b2a8824cb30f2ea9c84d48ed419c2
+Cours_DLM_2023-11-10_2026-11-09.csv,DLM,736,1,excluded,fewer than two observed closes,d10bc8956bbb62e1d7073a080d0d5100ff33d6dcd5084efa3714ea8e89e548c4
+Cours_DRI  _2023-11-10_2026-11-09.csv,DRI,736,736,imported,validated ticker and usable history,93a9d9427ac40a40130ef55bdaf252917b26f93da3a328895d3ce8a2a037ed03
+Cours_DWY  _2023-11-10_2026-11-09.csv,DWY,736,736,imported,validated ticker and usable history,b99fd7d89749352b29c5f4472ea4684ed961892da2e1fa0359f25f88d2efb8e7
+Cours_DYT  _2023-11-10_2026-11-09.csv,DYT,736,736,imported,validated ticker and usable history,c20618f24522efd21229434e6c716c24c2e243936d70e3cfb4e0ecdffbd3617e
+Cours_EQD  _2023-11-10_2026-11-09.csv,EQD,736,693,imported,validated ticker and usable history,fb208fa5f4a1d3553c9f3ef67b9d275be93213c46fa2a32e7c44362e830e0bd1
+Cours_FBR_2023-11-10_2026-11-09.csv,FBR,736,736,imported,validated ticker and usable history,713cb7feb7bd888e0dca202cef816087ab4f931489f7126336b65b5e7ed3640c
+Cours_GTM  _2023-11-10_2026-11-09.csv,GTM,218,218,imported,validated ticker and usable history,f5045d5ca2327a683355a37c54d3801a0b85f8f81db3cfa2f27307b2cca998cb
+Cours_HPS  _2023-11-10_2026-11-09.csv,HPS,736,736,imported,validated ticker and usable history,cbcf1eacb028f52baa524e0dcde60e063603f75d4281fb833d256da7d9ca320c
+Cours_IAM  _2023-11-10_2026-11-09.csv,IAM,736,736,imported,validated ticker and usable history,35fff71dc931e00a5545e6e37660ff34a6fd5fa676c2165a71c33ad6c30ccf44
+Cours_IBC_2023-11-10_2026-11-09.csv,IBC,736,736,imported,validated ticker and usable history,eede05e56670848e3edd9f5d2ffb44679c6ff554a5800460e3108f9f10a94250
+Cours_IMO  _2023-11-10_2026-11-09.csv,IMO,736,736,imported,validated ticker and usable history,1fbe75ce5e2b938e8e3f25eeb3142c8e7f6911cb93fbeff101f0a079c7192eac
+Cours_INV_2023-11-10_2026-11-09.csv,INV,736,736,imported,validated ticker and usable history,5bba0dc8bc403c8679da64bf55cddf70dd795674eef1d8ba07add0e6802cac6c
+Cours_JET  _2023-11-10_2026-11-09.csv,JET,736,736,imported,validated ticker and usable history,044fbeddc63c37615ba617baa98066d50536972328334290456d025868bd8e11
+Cours_LBV  _2023-11-10_2026-11-09.csv,LBV,736,736,imported,validated ticker and usable history,caaec1f3b49f1932cac75a05a137ee6a8b3ea4f5a59322a66730cfa8380d90f7
+Cours_LES  _2023-11-10_2026-11-09.csv,LES,736,736,imported,validated ticker and usable history,a705f63ee36a2021261b2f28c1b52442434802b9576024a9a522cba4aea93f9c
+Cours_LHM  _2023-11-10_2026-11-09.csv,LHM,736,736,imported,validated ticker and usable history,3cd6d776e96ee88e9093a2d5d718e7aad08cdd7aac1de4902a05d77b4ea23a80
+Cours_M2M_2023-11-10_2026-11-09.csv,M2M,736,736,imported,validated ticker and usable history,13b543290a16beb436278219e1203315a32b02262308cfaf144b45c5cb0c52e9
+Cours_MAB  _2023-11-10_2026-11-09.csv,MAB,736,736,imported,validated ticker and usable history,7d30bc0e0acdee8103131ae8f654582dec685ade5c22e4d4bb4847d8b03603f8
+Cours_MDP_2023-11-10_2026-11-09.csv,MDP,736,736,imported,validated ticker and usable history,65a235a269d88dae2c4b4e85dc22498a6efc5e1c4caa8af09cb65adbed2feb5d
+Cours_MIC  _2023-11-10_2026-11-09.csv,MIC,736,736,imported,validated ticker and usable history,3b9e0dd6076a3838e755b2fd4c58febe1bded530b0f463608e3ce1b7fbddb877
+Cours_MLE  _2023-11-10_2026-11-09.csv,MLE,736,736,imported,validated ticker and usable history,6f3f94beafcf235db0ccf92b9a953ad918bfc1da94893e0fe073dbcd24403517
+Cours_MNG  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_MNG  _2023-11-10_2026-11-09.csv: filename says MNG, contents say ['GTM']",f5045d5ca2327a683355a37c54d3801a0b85f8f81db3cfa2f27307b2cca998cb
+Cours_MOX_2023-11-10_2026-11-09.csv,MOX,736,736,imported,validated ticker and usable history,e94981f85de7178cdf9c49b2eb34ce89975caff6d93e84272021302257084fb9
+Cours_MSA  _2023-11-10_2026-11-09.csv,MSA,736,736,imported,validated ticker and usable history,57cad0d81c56cf95a7ab86bc4df123190ba958fa793d5a693c8ddc41ed5c20f6
+Cours_MUT  _2023-11-10_2026-11-09.csv,MUT,736,736,imported,validated ticker and usable history,b91de5d598420c9057d465df77a434a9e562bdb042e71501ec53f8d99f8f3c98
+Cours_NKL  _2023-11-10_2026-11-09.csv,NKL,736,736,imported,validated ticker and usable history,0aac499d035e4013810366978c72929078db45229817ee65eecc78cc3359f90a
+Cours_OUL  _2023-11-10_2026-11-09.csv,OUL,736,736,imported,validated ticker and usable history,740d47f1571eda93880e1c7bbbfbf023f16d42adcb1841176f36d8458e08dbf0
+Cours_PRO  _2023-11-10_2026-11-09.csv,PRO,736,736,imported,validated ticker and usable history,21b3f0855b9c95a92a862104e494c48203001b7e02a3082a3c6bc022fad71734
+Cours_RDS_2023-11-10_2026-11-09.csv,RDS,736,736,imported,validated ticker and usable history,4de03f00f671b3ba82f62a2a8533f50f2814d13d2d68f941ecbdef6f45ac40ac
+Cours_REB_2023-11-10_2026-11-09.csv,REB,736,736,imported,validated ticker and usable history,7d84497fcaae52d526f820b8cae05c1f820a4ec0afad5c0ec7a2d510445199e8
+Cours_RIS  _2023-11-10_2026-11-09.csv,RIS,736,736,imported,validated ticker and usable history,667a78b8f7c944fbb43e43f8e1aef2ba6e1b320388168196257f25e37afd0616
+Cours_S2M_2023-11-10_2026-11-09.csv,S2M,736,736,imported,validated ticker and usable history,aeceb2609e196a7f482e4787e4f78ffaf76e80422eb45194bed85c5edb7c81d7
+Cours_SAH  _2023-11-10_2026-11-09.csv,SAH,736,724,imported,validated ticker and usable history,2b706b7081f547917112fe763345c20f1327a8b3153669e9f872491737747398
+Cours_SAM_2023-11-10_2026-11-09.csv,SAM,736,1,excluded,fewer than two observed closes,144a378a455e1d4199c24595d6e11b48bb59f84a69ea1c21f9935c86ccef3be1
+Cours_SBM  _2023-11-10_2026-11-09.csv,SBM,736,736,imported,validated ticker and usable history,fd359ca3eab341605e6b530f59839115ff376ef16bed1a1cd7d9518349e347ba
+Cours_SID  _2023-11-10_2026-11-09.csv,SID,736,736,imported,validated ticker and usable history,296bcc2baf54f35443912558a7f76652772149e364208853e3f02cddcdd32dba
+Cours_SLF  _2023-11-10_2026-11-09.csv,SLF,736,736,imported,validated ticker and usable history,c0c2028ee11a446dee78c39dae660533a773f16e4fd046b80f521ce0f9326820
+Cours_SMI  _2023-11-10_2026-11-09.csv,SMI,736,736,imported,validated ticker and usable history,69c54013aef76b38e4c7200e054ab98fcba5a8bb884228d53b6647d82e65325e
+Cours_SNA  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_SNA  _2023-11-10_2026-11-09.csv: filename says SNA, contents say ['STR']",76148b68ef86225b6a84e339f7d469e5ea0daa974262224ac01fdb3bac7b735a
+Cours_SNP_2023-11-10_2026-11-09.csv,SNP,736,736,imported,validated ticker and usable history,7358e299b62f5d31cd98710a979e6150ecc0d8b06e812a12faadf6642aeb0cdf
+Cours_SOT  _2023-11-10_2026-11-09.csv,SOT,736,736,imported,validated ticker and usable history,05383d6b4a5afb86b6067fc98fdd2a2f56b0844a4df56e906159b3e2cad54e87
+Cours_SRM  _2023-11-10_2026-11-09.csv,SRM,736,736,imported,validated ticker and usable history,0e7f38a6001e6501a3a165054f084a1c1a46b1db975c641318d4ad28a5b7973a
+Cours_STR  _2023-11-10_2026-11-09.csv,STR,736,736,imported,validated ticker and usable history,76148b68ef86225b6a84e339f7d469e5ea0daa974262224ac01fdb3bac7b735a
+Cours_T2S  _2023-11-10_2026-11-09.csv,T2S,69,69,imported,validated ticker and usable history,fbc0e89fa8422b43855086abb15f6a6792b0313e4f9c4f8b426367027adb38ef
+Cours_TGC  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_TGC  _2023-11-10_2026-11-09.csv: filename says TGC, contents say ['CAP']",e3e4056e86f29316675ee747fff82931b3d94c4b1990d6c8681f99cdf72622ca
+Cours_TMA  _2023-11-10_2026-11-09.csv,TMA,736,736,imported,validated ticker and usable history,db2d6e6ffefa852f46b40ed3d81fcb45ad1ba528df2922405113026eaeeb2138
+Cours_TQM  _2023-11-10_2026-11-09.csv,TQM,736,736,imported,validated ticker and usable history,912f00fb18d5f9d0b260e0d92eef4f4407d090929752b1047e44f988a3e1c2c8
+Cours_UMR_2023-11-10_2026-11-09.csv,UMR,736,736,imported,validated ticker and usable history,a602e1db79606ba79114d2b46c7592517394a7fb911bf4ab897a6b477d3d4754
+Cours_VCN  _2023-11-10_2026-11-09.csv,VCN,322,322,imported,validated ticker and usable history,77a2b26274e5871088ef26153f8f93b9cf483662f6d22555e57471ecae64af87
+Cours_WAA  _2023-11-10_2026-11-09.csv,,0,0,excluded,"Cours_WAA  _2023-11-10_2026-11-09.csv: filename says WAA, contents say ['CAP']",e3e4056e86f29316675ee747fff82931b3d94c4b1990d6c8681f99cdf72622ca
+Cours_ZDJ  _2023-11-10_2026-11-09.csv,ZDJ,736,736,imported,validated ticker and usable history,78794d0532441707ecca75739e24b13f9c79c22f3530b8b11ad27f5cc56460e1

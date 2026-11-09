@@ -1,0 +1,44 @@
+test_breadth_scaling_reduces_target_with_few_positive_names (test_engine.EngineTests.test_breadth_scaling_reduces_target_with_few_positive_names) ... ok
+test_breadth_scaling_value_validated (test_engine.EngineTests.test_breadth_scaling_value_validated) ... ok
+test_calendar_month_anchor_not_252_rows (test_engine.EngineTests.test_calendar_month_anchor_not_252_rows) ... ok
+test_cash_benchmark_uses_available_rate (test_engine.EngineTests.test_cash_benchmark_uses_available_rate) ... ok
+test_conflicting_duplicate_rejected (test_engine.EngineTests.test_conflicting_duplicate_rejected) ... ok
+test_contest_default_rejects_partial_fills (test_engine.EngineTests.test_contest_default_rejects_partial_fills) ... ok
+test_daily_guard_trims_winner_before_hard_cap (test_engine.EngineTests.test_daily_guard_trims_winner_before_hard_cap) ... ok
+test_dividend_offsets_ex_date_price_drop (test_engine.EngineTests.test_dividend_offsets_ex_date_price_drop) ... ok
+test_ewm_matches_direct_weighted_variance (test_engine.EngineTests.test_ewm_matches_direct_weighted_variance) ... ok
+test_exchange_filename_ticker_mismatch_rejected (test_engine.EngineTests.test_exchange_filename_ticker_mismatch_rejected) ... ok
+test_exchange_format_and_unknown_volume (test_engine.EngineTests.test_exchange_format_and_unknown_volume) ... ok
+test_external_corporate_actions_adjust_return_and_reject_conflicts (test_engine.EngineTests.test_external_corporate_actions_adjust_return_and_reject_conflicts) ... ok
+test_fees_and_cash_conservation (test_engine.EngineTests.test_fees_and_cash_conservation) ... ok
+test_identical_repeated_export_deduplicated (test_engine.EngineTests.test_identical_repeated_export_deduplicated) ... ok
+test_inverse_variance_not_inverse_volatility (test_engine.EngineTests.test_inverse_variance_not_inverse_volatility) ... ok
+test_jump_breach_logged_not_retroactively_fixed (test_engine.EngineTests.test_jump_breach_logged_not_retroactively_fixed) ... ok
+test_liquid_universe_is_ranked_at_decision_without_momentum_selection (test_engine.EngineTests.test_liquid_universe_is_ranked_at_decision_without_momentum_selection) ... ok
+test_liquidity_floor_blocks_thin_stock_for_an_80k_position (test_engine.EngineTests.test_liquidity_floor_blocks_thin_stock_for_an_80k_position) ... ok
+test_missing_benchmark_rejected_in_total_return_mode (test_engine.EngineTests.test_missing_benchmark_rejected_in_total_return_mode) ... ok
+test_negative_sign_is_cash_not_redistributed (test_engine.EngineTests.test_negative_sign_is_cash_not_redistributed) ... ok
+test_new_listing_not_backfilled (test_engine.EngineTests.test_new_listing_not_backfilled) ... ok
+test_no_fills_on_zero_or_unknown_activity (test_engine.EngineTests.test_no_fills_on_zero_or_unknown_activity) ... ok
+test_no_same_day_fills (test_engine.EngineTests.test_no_same_day_fills) ... ok
+test_no_trade_band_saves_real_fees_without_blocking_exits (test_engine.EngineTests.test_no_trade_band_saves_real_fees_without_blocking_exits) ... ok
+test_nontrading_missing_close_stays_unobserved (test_engine.EngineTests.test_nontrading_missing_close_stays_unobserved) ... ok
+test_numerical_zero_is_not_a_buy_signal (test_engine.EngineTests.test_numerical_zero_is_not_a_buy_signal) ... ok
+test_order_slicing_expires_remainder_after_ttl (test_engine.EngineTests.test_order_slicing_expires_remainder_after_ttl) ... ok
+test_order_slicing_fills_across_sessions_within_volume_cap (test_engine.EngineTests.test_order_slicing_fills_across_sessions_within_volume_cap) ... ok
+test_original_signed_equation (test_engine.EngineTests.test_original_signed_equation) ... ok
+test_overlay_uses_previous_variance_and_frozen_training (test_engine.EngineTests.test_overlay_uses_previous_variance_and_frozen_training) ... ok
+test_partial_month_is_not_rebalance (test_engine.EngineTests.test_partial_month_is_not_rebalance) ... ok
+test_participation_cap (test_engine.EngineTests.test_participation_cap) ... ok
+test_pending_orders_block_trade_differences (test_engine.EngineTests.test_pending_orders_block_trade_differences) ... ok
+test_redistribution_reaches_feasible_target_and_keeps_caps (test_engine.EngineTests.test_redistribution_reaches_feasible_target_and_keeps_caps) ... ok
+test_signal_uses_no_future_prices (test_engine.EngineTests.test_signal_uses_no_future_prices) ... ok
+test_signal_variants_have_explicit_windows_without_future_dependency (test_engine.EngineTests.test_signal_variants_have_explicit_windows_without_future_dependency) ... ok
+test_split_does_not_destroy_wealth (test_engine.EngineTests.test_split_does_not_destroy_wealth) ... ok
+test_target_vol_flat_reference_does_not_increase_exposure (test_engine.EngineTests.test_target_vol_flat_reference_does_not_increase_exposure) ... ok
+test_twelve_equities_and_constraints (test_engine.EngineTests.test_twelve_equities_and_constraints) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 3.202s
+
+OK
