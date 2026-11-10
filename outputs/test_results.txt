@@ -11,11 +11,14 @@ test_exchange_filename_ticker_mismatch_rejected (test_engine.EngineTests.test_ex
 test_exchange_format_and_unknown_volume (test_engine.EngineTests.test_exchange_format_and_unknown_volume) ... ok
 test_external_corporate_actions_adjust_return_and_reject_conflicts (test_engine.EngineTests.test_external_corporate_actions_adjust_return_and_reject_conflicts) ... ok
 test_fees_and_cash_conservation (test_engine.EngineTests.test_fees_and_cash_conservation) ... ok
+test_french_export_headers_are_read (test_engine.EngineTests.test_french_export_headers_are_read) ... ok
 test_identical_repeated_export_deduplicated (test_engine.EngineTests.test_identical_repeated_export_deduplicated) ... ok
 test_inverse_variance_not_inverse_volatility (test_engine.EngineTests.test_inverse_variance_not_inverse_volatility) ... ok
 test_jump_breach_logged_not_retroactively_fixed (test_engine.EngineTests.test_jump_breach_logged_not_retroactively_fixed) ... ok
 test_liquid_universe_is_ranked_at_decision_without_momentum_selection (test_engine.EngineTests.test_liquid_universe_is_ranked_at_decision_without_momentum_selection) ... ok
 test_liquidity_floor_blocks_thin_stock_for_an_80k_position (test_engine.EngineTests.test_liquidity_floor_blocks_thin_stock_for_an_80k_position) ... ok
+test_merge_exports_combines_overlap_and_detects_conflicts (test_engine.EngineTests.test_merge_exports_combines_overlap_and_detects_conflicts) ... ok
+test_merge_exports_rejects_different_tickers (test_engine.EngineTests.test_merge_exports_rejects_different_tickers) ... ok
 test_missing_benchmark_rejected_in_total_return_mode (test_engine.EngineTests.test_missing_benchmark_rejected_in_total_return_mode) ... ok
 test_negative_sign_is_cash_not_redistributed (test_engine.EngineTests.test_negative_sign_is_cash_not_redistributed) ... ok
 test_new_listing_not_backfilled (test_engine.EngineTests.test_new_listing_not_backfilled) ... ok
@@ -39,6 +42,6 @@ test_target_vol_flat_reference_does_not_increase_exposure (test_engine.EngineTes
 test_twelve_equities_and_constraints (test_engine.EngineTests.test_twelve_equities_and_constraints) ... ok
 
 ----------------------------------------------------------------------
-Ran 39 tests in 3.202s
+Ran 42 tests in 3.786s
 
 OK

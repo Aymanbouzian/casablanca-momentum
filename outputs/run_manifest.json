@@ -1,6 +1,6 @@
 {
   "engine_version": "1.2.0",
-  "built_utc": "2026-11-09 22:53:29.644013+00:00",
+  "built_utc": "2026-11-10 09:26:58.227490+00:00",
   "data_cutoff": "2026-11-09",
   "tickers": [
     "ADH",
@@ -8,6 +8,9 @@
     "AGM",
     "AKT",
     "ALM",
+    "ATW",
+    "BCP",
+    "BOA",
     "CAP",
     "CDM",
     "CFG",
@@ -38,6 +41,7 @@
     "MDP",
     "MIC",
     "MLE",
+    "MNG",
     "MOX",
     "MSA",
     "MUT",
@@ -66,7 +70,7 @@
   ],
   "configuration": {
     "prices_dir": "data/prices",
-    "corporate_actions_file": null,
+    "corporate_actions_file": "data/corporate_actions.csv",
     "metadata_file": "data/universe.csv",
     "cash_rates_file": null,
     "calendar_file": null,
@@ -136,6 +140,18 @@
     {
       "file": "Cours_ALM  _2023-11-10_2026-11-09.csv",
       "sha256": "aad0173d11948e8246705e1d520d5305e00c711bc093ba490661c674fc1378c2"
+    },
+    {
+      "file": "Cours_ATW_merged_2023-09-13_2026-11-09.csv",
+      "sha256": "4dd8cf05ee9f55be99ed11c431ce647a98c4a07f59a2eacc7c9c1776ed4145d2"
+    },
+    {
+      "file": "Cours_BCP_merged_2023-09-13_2026-11-09.csv",
+      "sha256": "82be20de30d00bc10be1fd128b325eb7f34598e8498308ad293b5d746c909fe2"
+    },
+    {
+      "file": "Cours_BOA_merged_2023-09-13_2026-11-09.csv",
+      "sha256": "a74f971b2e038ac8fca1306bf8f5fe9eea5a5bafca6496c5cf6efd70c43b85e1"
     },
     {
       "file": "Cours_CAP  _2023-11-10_2026-11-09.csv",
@@ -258,6 +274,10 @@
       "sha256": "6f3f94beafcf235db0ccf92b9a953ad918bfc1da94893e0fe073dbcd24403517"
     },
     {
+      "file": "Cours_MNG_merged_2023-09-13_2026-11-09.csv",
+      "sha256": "4da3d85580dd89b2436f93dcbd6f833d227b654b9a80977e4811a2ec0e34d7d5"
+    },
+    {
       "file": "Cours_MOX_2023-11-10_2026-11-09.csv",
       "sha256": "e94981f85de7178cdf9c49b2eb34ce89975caff6d93e84272021302257084fb9"
     },
@@ -356,6 +376,10 @@
     {
       "file": "Cours_ZDJ  _2023-11-10_2026-11-09.csv",
       "sha256": "78794d0532441707ecca75739e24b13f9c79c22f3530b8b11ad27f5cc56460e1"
+    },
+    {
+      "file": "data/corporate_actions.csv",
+      "sha256": "bdc24d5f063b58de088a53f3dd1e8c54a779a34e45d2c124e359dc8ef36118c3"
     }
   ],
   "warnings": [
@@ -371,7 +395,7 @@
   "vm_calibration_end": null,
   "common_evaluation_start": "2026-05-01 00:00:00",
   "holdout_start_requested": "2026-05-01",
-  "training_start": "2024-12-02 00:00:00",
+  "training_start": "2024-10-01 00:00:00",
   "training_end": "2026-04-30 00:00:00",
   "holdout_independence_verified": false,
   "environment": {

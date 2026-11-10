@@ -4,7 +4,7 @@
   "cash_mad": 1000000,
   "estimated_nav_mad": 1000000,
   "pending_orders_count": 0,
-  "target_stock_weight": 0.08,
-  "target_cash_weight": 0.92,
+  "target_stock_weight": 0.16,
+  "target_cash_weight": 0.84,
   "limitations": "Historical quotes; verify current holdings, cash, pending fills, QMQ, suspended/reserved status and current prices before manually sizing an order. Share differences are estimates, not executable instructions."
 }

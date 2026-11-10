@@ -127,3 +127,11 @@ The daily 9.2% guard acts on the observed close and queues a next-session trim; 
 - **Order slicing** (`order_slicing`, `slicing_ttl_sessions`): large targets fill over several sessions instead of failing all-or-none. Unfilled orders fell from 1,097 to 0 and expired orders from 205 to 14, so backtested turnover and fees are now more realistic (higher).
 - **Breadth scaling** (`breadth_scaling`: `off` or `linear`), compared in the model-comparison tables. Default stays `off`.
 - 5 new tests (39 total).
+
+## Merging split downloads
+
+`scripts/merge_exports.py OLD.csv NEW.csv` merges several exports of one stock (English or French headers). It rejects mixed tickers and reports any overlapping sessions whose prices or volumes disagree. Use it when the website returns a wrong or truncated file for a long date range: download shorter ranges and merge them. ATW is already merged this way (Sep 2023 to Nov 2026, 18 overlapping sessions, 0 conflicts).
+
+## Corporate actions
+
+`data/corporate_actions.csv` (set in `config.json`) holds the actions I could verify so far: MNG 10-for-1 split effective 2026-07-27 (Medias24, BourseNews). Dividends and other splits are not yet included, so `corporate_actions_verified` stays false. SOT and CMT also show large one-day moves and need checking.

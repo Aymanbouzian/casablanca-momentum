@@ -1,29 +1,43 @@
 date,ticker,event,detail
+2024-10-04,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-10-08,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-10-14,BOA,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-10-14,BOA,order_expired,Unfilled quantity=6
+2024-10-31,ATW,within_no_trade_band,held=136; target=137; no order
+2024-10-31,BCP,within_no_trade_band,held=258; target=257; no order
+2024-10-31,BOA,within_no_trade_band,held=379; target=390; no order
+2024-10-31,MNG,within_no_trade_band,held=26; target=27; no order
+2024-11-29,BCP,within_no_trade_band,held=258; target=236; no order
+2024-12-02,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-02,LBV,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-02,LHM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-12-03,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-03,TQM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-12-04,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-04,LBV,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-04,TQM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-12-05,MNG,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-05,CIH,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2024-12-05,LBV,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2024-12-09,MNG,no_fill,No observed trades; carried closing price is not executable
+2024-12-10,MNG,no_fill,No observed trades; carried closing price is not executable
 2024-12-10,TQM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2024-12-11,MUT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2024-12-12,CIH,no_fill,No observed trades; carried closing price is not executable
-2024-12-31,ADH,within_no_trade_band,held=742; target=704; no order
-2024-12-31,ADI,within_no_trade_band,held=79; target=64; no order
-2024-12-31,AKT,within_no_trade_band,held=45; target=46; no order
-2024-12-31,CIH,within_no_trade_band,held=144; target=131; no order
-2024-12-31,CMA,within_no_trade_band,held=24; target=23; no order
-2024-12-31,CMT,within_no_trade_band,held=19; target=18; no order
-2024-12-31,JET,within_no_trade_band,held=16; target=12; no order
-2024-12-31,LHM,within_no_trade_band,held=36; target=34; no order
-2024-12-31,MSA,within_no_trade_band,held=82; target=83; no order
-2024-12-31,MUT,within_no_trade_band,held=219; target=180; no order
-2024-12-31,RDS,within_no_trade_band,held=354; target=336; no order
-2024-12-31,SID,within_no_trade_band,held=39; target=35; no order
-2024-12-31,SNP,within_no_trade_band,held=67; target=55; no order
-2024-12-31,TMA,within_no_trade_band,held=27; target=24; no order
-2024-12-31,TQM,within_no_trade_band,held=34; target=30; no order
+2024-12-31,ADH,within_no_trade_band,held=518; target=567; no order
+2024-12-31,ADI,within_no_trade_band,held=55; target=51; no order
+2024-12-31,AKT,within_no_trade_band,held=31; target=37; no order
+2024-12-31,ATW,within_no_trade_band,held=99; target=82; no order
+2024-12-31,BOA,within_no_trade_band,held=274; target=272; no order
+2024-12-31,CIH,within_no_trade_band,held=100; target=105; no order
+2024-12-31,CMA,within_no_trade_band,held=17; target=18; no order
+2024-12-31,CMT,within_no_trade_band,held=13; target=14; no order
+2024-12-31,JET,within_no_trade_band,held=11; target=10; no order
+2024-12-31,LHM,within_no_trade_band,held=25; target=27; no order
+2024-12-31,MSA,within_no_trade_band,held=57; target=66; no order
+2024-12-31,MUT,within_no_trade_band,held=153; target=145; no order
+2024-12-31,RDS,within_no_trade_band,held=247; target=271; no order
+2024-12-31,SID,within_no_trade_band,held=27; target=28; no order
+2024-12-31,SNP,within_no_trade_band,held=46; target=44; no order
+2024-12-31,TMA,within_no_trade_band,held=18; target=20; no order
 2025-01-02,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-01-03,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-01-06,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
@@ -34,14 +48,20 @@ date,ticker,event,detail
 2025-01-13,SBM,no_fill,No observed trades; carried closing price is not executable
 2025-01-15,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-01-16,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-01-16,SBM,order_expired,Unfilled quantity=10
-2025-01-31,ADH,within_no_trade_band,held=742; target=498; no order
-2025-01-31,CDM,within_no_trade_band,held=34; target=25; no order
-2025-01-31,CMA,within_no_trade_band,held=24; target=20; no order
-2025-01-31,LHM,within_no_trade_band,held=36; target=27; no order
-2025-02-03,CMT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-02-03,SNP,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-02-03,TMA,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2025-01-16,SBM,order_expired,Unfilled quantity=8
+2025-01-31,ADH,within_no_trade_band,held=518; target=429; no order
+2025-01-31,ADI,within_no_trade_band,held=55; target=39; no order
+2025-01-31,AKT,within_no_trade_band,held=31; target=27; no order
+2025-01-31,CDM,within_no_trade_band,held=27; target=21; no order
+2025-01-31,CFG,within_no_trade_band,held=179; target=140; no order
+2025-01-31,CMT,within_no_trade_band,held=13; target=11; no order
+2025-01-31,JET,within_no_trade_band,held=11; target=7; no order
+2025-01-31,LHM,within_no_trade_band,held=25; target=23; no order
+2025-01-31,MSA,within_no_trade_band,held=57; target=52; no order
+2025-01-31,MUT,within_no_trade_band,held=153; target=115; no order
+2025-01-31,SNP,within_no_trade_band,held=46; target=34; no order
+2025-01-31,TMA,within_no_trade_band,held=18; target=16; no order
+2025-01-31,TQM,within_no_trade_band,held=24; target=20; no order
 2025-02-03,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-02-04,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-02-06,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
@@ -50,25 +70,24 @@ date,ticker,event,detail
 2025-02-11,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-02-12,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-02-13,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-02-14,SBM,order_expired,Unfilled quantity=3
-2025-02-28,ADH,within_no_trade_band,held=742; target=651; no order
-2025-02-28,ADI,within_no_trade_band,held=46; target=48; no order
-2025-02-28,AKT,within_no_trade_band,held=32; target=37; no order
-2025-02-28,CDM,within_no_trade_band,held=34; target=30; no order
-2025-02-28,CFG,within_no_trade_band,held=163; target=193; no order
-2025-02-28,CIH,within_no_trade_band,held=81; target=90; no order
-2025-02-28,CMA,within_no_trade_band,held=24; target=25; no order
-2025-02-28,CMT,within_no_trade_band,held=13; target=15; no order
-2025-02-28,CSR,within_no_trade_band,held=187; target=220; no order
-2025-02-28,DHO,within_no_trade_band,held=310; target=406; no order
-2025-02-28,HPS,within_no_trade_band,held=55; target=56; no order
-2025-02-28,IAM,within_no_trade_band,held=304; target=283; no order
-2025-02-28,MUT,within_no_trade_band,held=133; target=138; no order
-2025-02-28,RDS,within_no_trade_band,held=141; target=162; no order
-2025-02-28,SID,within_no_trade_band,held=20; target=16; no order
-2025-02-28,SNP,within_no_trade_band,held=39; target=51; no order
-2025-02-28,TMA,within_no_trade_band,held=19; target=23; no order
-2025-02-28,TQM,within_no_trade_band,held=24; target=21; no order
+2025-02-14,SBM,order_expired,Unfilled quantity=2
+2025-02-28,ADH,within_no_trade_band,held=518; target=586; no order
+2025-02-28,ADI,within_no_trade_band,held=55; target=44; no order
+2025-02-28,AKT,within_no_trade_band,held=31; target=33; no order
+2025-02-28,ATW,within_no_trade_band,held=62; target=75; no order
+2025-02-28,CFG,within_no_trade_band,held=179; target=173; no order
+2025-02-28,CIH,within_no_trade_band,held=69; target=81; no order
+2025-02-28,CSR,within_no_trade_band,held=161; target=198; no order
+2025-02-28,DHO,within_no_trade_band,held=266; target=366; no order
+2025-02-28,HPS,within_no_trade_band,held=48; target=50; no order
+2025-02-28,IAM,within_no_trade_band,held=262; target=255; no order
+2025-02-28,JET,within_no_trade_band,held=11; target=8; no order
+2025-02-28,MUT,within_no_trade_band,held=153; target=124; no order
+2025-02-28,RDS,within_no_trade_band,held=122; target=146; no order
+2025-02-28,RIS,within_no_trade_band,held=86; target=90; no order
+2025-02-28,SID,within_no_trade_band,held=17; target=14; no order
+2025-02-28,TMA,within_no_trade_band,held=18; target=21; no order
+2025-02-28,TQM,within_no_trade_band,held=24; target=19; no order
 2025-03-03,SBM,no_fill,No observed trades; carried closing price is not executable
 2025-03-03,SOT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-03-04,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
@@ -77,239 +96,263 @@ date,ticker,event,detail
 2025-03-06,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-03-07,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-03-10,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-03-28,ADH,within_no_trade_band,held=742; target=617; no order
-2025-03-28,ADI,within_no_trade_band,held=46; target=58; no order
-2025-03-28,AKT,within_no_trade_band,held=32; target=37; no order
-2025-03-28,CDM,within_no_trade_band,held=34; target=26; no order
-2025-03-28,CIH,within_no_trade_band,held=81; target=99; no order
-2025-03-28,CMA,within_no_trade_band,held=24; target=22; no order
-2025-03-28,CMT,within_no_trade_band,held=13; target=14; no order
-2025-03-28,CSR,within_no_trade_band,held=187; target=188; no order
-2025-03-28,DHO,within_no_trade_band,held=310; target=311; no order
-2025-03-28,HPS,within_no_trade_band,held=55; target=62; no order
-2025-03-28,IAM,within_no_trade_band,held=304; target=265; no order
-2025-03-28,MSA,within_no_trade_band,held=45; target=50; no order
-2025-03-28,MUT,within_no_trade_band,held=133; target=153; no order
-2025-03-28,RDS,within_no_trade_band,held=141; target=202; no order
-2025-03-28,RIS,within_no_trade_band,held=100; target=95; no order
-2025-03-28,SMI,within_no_trade_band,held=10; target=9; no order
-2025-03-28,SNP,within_no_trade_band,held=39; target=55; no order
-2025-03-28,SOT,within_no_trade_band,held=28; target=29; no order
-2025-04-30,ADH,within_no_trade_band,held=742; target=753; no order
-2025-04-30,ADI,within_no_trade_band,held=46; target=62; no order
-2025-04-30,AKT,within_no_trade_band,held=32; target=29; no order
-2025-04-30,CDM,within_no_trade_band,held=34; target=29; no order
-2025-04-30,CFG,within_no_trade_band,held=230; target=215; no order
-2025-04-30,CIH,within_no_trade_band,held=81; target=85; no order
-2025-04-30,CMA,within_no_trade_band,held=24; target=18; no order
-2025-04-30,CMT,within_no_trade_band,held=13; target=15; no order
-2025-04-30,CSR,within_no_trade_band,held=187; target=182; no order
-2025-04-30,DHO,within_no_trade_band,held=310; target=277; no order
-2025-04-30,FBR,within_no_trade_band,held=58; target=64; no order
-2025-04-30,HPS,within_no_trade_band,held=55; target=69; no order
-2025-04-30,IAM,within_no_trade_band,held=304; target=317; no order
-2025-04-30,JET,within_no_trade_band,held=9; target=11; no order
-2025-04-30,MSA,within_no_trade_band,held=45; target=51; no order
-2025-04-30,MUT,within_no_trade_band,held=133; target=140; no order
-2025-04-30,RDS,within_no_trade_band,held=141; target=217; no order
-2025-04-30,RIS,within_no_trade_band,held=100; target=110; no order
-2025-04-30,SMI,within_no_trade_band,held=10; target=9; no order
-2025-04-30,SNP,within_no_trade_band,held=39; target=44; no order
-2025-04-30,SOT,within_no_trade_band,held=28; target=25; no order
-2025-04-30,TMA,within_no_trade_band,held=19; target=17; no order
-2025-04-30,TQM,within_no_trade_band,held=11; target=10; no order
-2025-05-30,ADH,within_no_trade_band,held=742; target=747; no order
-2025-05-30,ADI,within_no_trade_band,held=46; target=63; no order
-2025-05-30,AKT,within_no_trade_band,held=32; target=31; no order
-2025-05-30,CDM,within_no_trade_band,held=34; target=29; no order
-2025-05-30,CFG,within_no_trade_band,held=230; target=196; no order
-2025-05-30,CIH,within_no_trade_band,held=81; target=89; no order
-2025-05-30,CMA,within_no_trade_band,held=24; target=18; no order
-2025-05-30,CMT,within_no_trade_band,held=13; target=15; no order
-2025-05-30,CSR,within_no_trade_band,held=187; target=193; no order
-2025-05-30,DHO,within_no_trade_band,held=310; target=258; no order
-2025-05-30,FBR,within_no_trade_band,held=58; target=65; no order
-2025-05-30,IAM,within_no_trade_band,held=304; target=356; no order
-2025-05-30,JET,within_no_trade_band,held=9; target=10; no order
-2025-05-30,MSA,within_no_trade_band,held=45; target=48; no order
-2025-05-30,MUT,within_no_trade_band,held=133; target=136; no order
-2025-05-30,RDS,within_no_trade_band,held=141; target=227; no order
-2025-05-30,RIS,within_no_trade_band,held=100; target=98; no order
-2025-05-30,S2M,within_no_trade_band,held=32; target=36; no order
-2025-05-30,SID,within_no_trade_band,held=11; target=10; no order
-2025-05-30,SNP,within_no_trade_band,held=39; target=43; no order
-2025-05-30,TMA,within_no_trade_band,held=19; target=16; no order
+2025-03-28,ADH,within_no_trade_band,held=518; target=530; no order
+2025-03-28,ADI,within_no_trade_band,held=55; target=50; no order
+2025-03-28,AKT,within_no_trade_band,held=31; target=32; no order
+2025-03-28,ATW,within_no_trade_band,held=62; target=69; no order
+2025-03-28,CDM,within_no_trade_band,held=27; target=22; no order
+2025-03-28,CFG,within_no_trade_band,held=179; target=198; no order
+2025-03-28,CIH,within_no_trade_band,held=69; target=85; no order
+2025-03-28,CMA,within_no_trade_band,held=23; target=19; no order
+2025-03-28,CMT,within_no_trade_band,held=13; target=12; no order
+2025-03-28,DHO,within_no_trade_band,held=266; target=267; no order
+2025-03-28,HPS,within_no_trade_band,held=48; target=53; no order
+2025-03-28,IAM,within_no_trade_band,held=262; target=227; no order
+2025-03-28,JET,within_no_trade_band,held=11; target=8; no order
+2025-03-28,MNG,within_no_trade_band,held=6; target=4; no order
+2025-03-28,MSA,within_no_trade_band,held=40; target=43; no order
+2025-03-28,MUT,within_no_trade_band,held=153; target=132; no order
+2025-03-28,RDS,within_no_trade_band,held=122; target=174; no order
+2025-03-28,RIS,within_no_trade_band,held=86; target=82; no order
+2025-03-28,SMI,within_no_trade_band,held=9; target=8; no order
+2025-03-28,SNP,within_no_trade_band,held=46; target=47; no order
+2025-03-28,TMA,within_no_trade_band,held=18; target=16; no order
+2025-04-30,ADH,within_no_trade_band,held=518; target=649; no order
+2025-04-30,ADI,within_no_trade_band,held=55; target=53; no order
+2025-04-30,AKT,within_no_trade_band,held=31; target=25; no order
+2025-04-30,ATW,within_no_trade_band,held=62; target=75; no order
+2025-04-30,CDM,within_no_trade_band,held=27; target=25; no order
+2025-04-30,CFG,within_no_trade_band,held=179; target=186; no order
+2025-04-30,CIH,within_no_trade_band,held=69; target=73; no order
+2025-04-30,CSR,within_no_trade_band,held=161; target=157; no order
+2025-04-30,DHO,within_no_trade_band,held=266; target=239; no order
+2025-04-30,FBR,within_no_trade_band,held=50; target=55; no order
+2025-04-30,HPS,within_no_trade_band,held=48; target=60; no order
+2025-04-30,IAM,within_no_trade_band,held=262; target=274; no order
+2025-04-30,JET,within_no_trade_band,held=11; target=9; no order
+2025-04-30,MNG,within_no_trade_band,held=6; target=5; no order
+2025-04-30,MSA,within_no_trade_band,held=40; target=44; no order
+2025-04-30,MUT,within_no_trade_band,held=153; target=121; no order
+2025-04-30,RDS,within_no_trade_band,held=122; target=187; no order
+2025-04-30,RIS,within_no_trade_band,held=86; target=95; no order
+2025-04-30,SMI,within_no_trade_band,held=9; target=8; no order
+2025-04-30,SNP,within_no_trade_band,held=46; target=38; no order
+2025-04-30,SOT,within_no_trade_band,held=25; target=21; no order
+2025-04-30,TMA,within_no_trade_band,held=18; target=14; no order
+2025-04-30,TQM,within_no_trade_band,held=9; target=8; no order
+2025-05-05,CMA,no_fill,"Participation, cash or position cap prevents a whole-share fill"
+2025-05-30,ADH,within_no_trade_band,held=518; target=645; no order
+2025-05-30,AKT,within_no_trade_band,held=31; target=26; no order
+2025-05-30,ATW,within_no_trade_band,held=62; target=76; no order
+2025-05-30,BOA,within_no_trade_band,held=146; target=139; no order
+2025-05-30,CDM,within_no_trade_band,held=27; target=25; no order
+2025-05-30,CFG,within_no_trade_band,held=179; target=170; no order
+2025-05-30,CIH,within_no_trade_band,held=69; target=77; no order
+2025-05-30,CSR,within_no_trade_band,held=161; target=166; no order
+2025-05-30,DHO,within_no_trade_band,held=266; target=223; no order
+2025-05-30,FBR,within_no_trade_band,held=50; target=56; no order
+2025-05-30,IAM,within_no_trade_band,held=262; target=308; no order
+2025-05-30,JET,within_no_trade_band,held=11; target=9; no order
+2025-05-30,MNG,within_no_trade_band,held=6; target=5; no order
+2025-05-30,MSA,within_no_trade_band,held=40; target=41; no order
+2025-05-30,MUT,within_no_trade_band,held=153; target=118; no order
+2025-05-30,RDS,within_no_trade_band,held=122; target=196; no order
+2025-05-30,RIS,within_no_trade_band,held=86; target=84; no order
+2025-05-30,S2M,within_no_trade_band,held=28; target=31; no order
+2025-05-30,SID,within_no_trade_band,held=10; target=8; no order
+2025-05-30,SNP,within_no_trade_band,held=46; target=37; no order
+2025-05-30,TMA,within_no_trade_band,held=18; target=14; no order
+2025-05-30,TQM,within_no_trade_band,held=9; target=6; no order
 2025-06-02,LBV,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-06-02,LHM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-06-03,SMI,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-06-30,ADH,within_no_trade_band,held=742; target=698; no order
-2025-06-30,ADI,within_no_trade_band,held=46; target=58; no order
-2025-06-30,AKT,within_no_trade_band,held=32; target=28; no order
-2025-06-30,CDM,within_no_trade_band,held=34; target=27; no order
-2025-06-30,CFG,within_no_trade_band,held=230; target=182; no order
-2025-06-30,CIH,within_no_trade_band,held=81; target=79; no order
-2025-06-30,CMT,within_no_trade_band,held=13; target=10; no order
-2025-06-30,CSR,within_no_trade_band,held=187; target=181; no order
-2025-06-30,DHO,within_no_trade_band,held=310; target=274; no order
-2025-06-30,FBR,within_no_trade_band,held=58; target=40; no order
-2025-06-30,IAM,within_no_trade_band,held=304; target=340; no order
-2025-06-30,JET,within_no_trade_band,held=9; target=11; no order
-2025-06-30,LBV,within_no_trade_band,held=7; target=6; no order
-2025-06-30,LHM,within_no_trade_band,held=23; target=21; no order
-2025-06-30,MSA,within_no_trade_band,held=45; target=40; no order
-2025-06-30,RDS,within_no_trade_band,held=141; target=161; no order
-2025-06-30,RIS,within_no_trade_band,held=100; target=79; no order
-2025-06-30,S2M,within_no_trade_band,held=32; target=34; no order
-2025-06-30,SID,within_no_trade_band,held=11; target=9; no order
-2025-06-30,SNP,within_no_trade_band,held=39; target=44; no order
-2025-06-30,TMA,within_no_trade_band,held=19; target=18; no order
+2025-06-30,ADH,within_no_trade_band,held=518; target=615; no order
+2025-06-30,ADI,within_no_trade_band,held=55; target=51; no order
+2025-06-30,AKT,within_no_trade_band,held=31; target=24; no order
+2025-06-30,ATW,within_no_trade_band,held=62; target=70; no order
+2025-06-30,CDM,within_no_trade_band,held=27; target=24; no order
+2025-06-30,CFG,within_no_trade_band,held=179; target=160; no order
+2025-06-30,CMA,within_no_trade_band,held=16; target=13; no order
+2025-06-30,CMT,within_no_trade_band,held=13; target=9; no order
+2025-06-30,CSR,within_no_trade_band,held=161; target=159; no order
+2025-06-30,DHO,within_no_trade_band,held=266; target=242; no order
+2025-06-30,FBR,within_no_trade_band,held=50; target=35; no order
+2025-06-30,IAM,within_no_trade_band,held=262; target=300; no order
+2025-06-30,JET,within_no_trade_band,held=11; target=10; no order
+2025-06-30,LBV,within_no_trade_band,held=6; target=5; no order
+2025-06-30,LHM,within_no_trade_band,held=20; target=19; no order
+2025-06-30,MNG,within_no_trade_band,held=6; target=5; no order
+2025-06-30,MSA,within_no_trade_band,held=40; target=35; no order
+2025-06-30,MUT,within_no_trade_band,held=153; target=117; no order
+2025-06-30,RDS,within_no_trade_band,held=122; target=142; no order
+2025-06-30,RIS,within_no_trade_band,held=86; target=70; no order
+2025-06-30,S2M,within_no_trade_band,held=28; target=29; no order
+2025-06-30,SID,within_no_trade_band,held=10; target=8; no order
+2025-06-30,SNP,within_no_trade_band,held=46; target=38; no order
+2025-06-30,STR,within_no_trade_band,held=0; target=43; no order
+2025-06-30,TMA,within_no_trade_band,held=18; target=16; no order
+2025-06-30,TQM,within_no_trade_band,held=9; target=6; no order
 2025-07-03,SMI,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-07-04,SMI,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-07-08,SMI,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-07-09,SMI,no_fill,No observed trades; carried closing price is not executable
-2025-07-31,ADH,within_no_trade_band,held=742; target=778; no order
-2025-07-31,ADI,within_no_trade_band,held=46; target=66; no order
-2025-07-31,AKT,within_no_trade_band,held=32; target=27; no order
-2025-07-31,CDM,within_no_trade_band,held=34; target=33; no order
-2025-07-31,CIH,within_no_trade_band,held=81; target=78; no order
-2025-07-31,CMA,within_no_trade_band,held=15; target=16; no order
-2025-07-31,CSR,within_no_trade_band,held=187; target=149; no order
-2025-07-31,DHO,within_no_trade_band,held=310; target=317; no order
-2025-07-31,FBR,within_no_trade_band,held=58; target=39; no order
-2025-07-31,HPS,within_no_trade_band,held=65; target=71; no order
-2025-07-31,IAM,within_no_trade_band,held=304; target=328; no order
-2025-07-31,JET,within_no_trade_band,held=9; target=12; no order
-2025-07-31,LBV,within_no_trade_band,held=7; target=6; no order
-2025-07-31,MSA,within_no_trade_band,held=45; target=39; no order
-2025-07-31,MUT,within_no_trade_band,held=133; target=154; no order
-2025-07-31,RDS,within_no_trade_band,held=141; target=148; no order
-2025-07-31,RIS,within_no_trade_band,held=100; target=77; no order
-2025-07-31,SID,within_no_trade_band,held=11; target=10; no order
-2025-07-31,SNP,within_no_trade_band,held=39; target=48; no order
-2025-07-31,SOT,within_no_trade_band,held=17; target=12; no order
-2025-07-31,STR,within_no_trade_band,held=49; target=58; no order
-2025-07-31,TMA,within_no_trade_band,held=19; target=17; no order
-2025-07-31,TQM,within_no_trade_band,held=7; target=8; no order
-2025-08-29,ADH,within_no_trade_band,held=742; target=692; no order
-2025-08-29,ADI,within_no_trade_band,held=46; target=55; no order
-2025-08-29,AKT,within_no_trade_band,held=32; target=27; no order
-2025-08-29,CDM,within_no_trade_band,held=34; target=31; no order
-2025-08-29,CFG,within_no_trade_band,held=159; target=148; no order
-2025-08-29,CIH,within_no_trade_band,held=81; target=80; no order
-2025-08-29,CMA,within_no_trade_band,held=15; target=16; no order
-2025-08-29,CMT,within_no_trade_band,held=8; target=7; no order
-2025-08-29,CSR,within_no_trade_band,held=187; target=148; no order
-2025-08-29,DHO,within_no_trade_band,held=310; target=282; no order
-2025-08-29,HPS,within_no_trade_band,held=65; target=72; no order
-2025-08-29,IAM,within_no_trade_band,held=304; target=329; no order
-2025-08-29,JET,within_no_trade_band,held=9; target=8; no order
-2025-08-29,LBV,within_no_trade_band,held=7; target=6; no order
-2025-08-29,LHM,within_no_trade_band,held=23; target=20; no order
-2025-08-29,MSA,within_no_trade_band,held=45; target=36; no order
-2025-08-29,RDS,within_no_trade_band,held=141; target=136; no order
-2025-08-29,SID,within_no_trade_band,held=11; target=9; no order
-2025-08-29,SNP,within_no_trade_band,held=39; target=47; no order
-2025-08-29,SOT,within_no_trade_band,held=17; target=12; no order
-2025-08-29,STR,within_no_trade_band,held=49; target=48; no order
-2025-08-29,TMA,within_no_trade_band,held=19; target=18; no order
-2025-08-29,TQM,within_no_trade_band,held=7; target=8; no order
-2025-09-30,ADI,within_no_trade_band,held=46; target=63; no order
-2025-09-30,AKT,within_no_trade_band,held=32; target=31; no order
-2025-09-30,CDM,within_no_trade_band,held=34; target=40; no order
-2025-09-30,CFG,within_no_trade_band,held=159; target=168; no order
-2025-09-30,CIH,within_no_trade_band,held=81; target=88; no order
-2025-09-30,CMA,within_no_trade_band,held=15; target=13; no order
-2025-09-30,CMT,within_no_trade_band,held=8; target=9; no order
-2025-09-30,COL,within_no_trade_band,held=212; target=229; no order
-2025-09-30,CSR,within_no_trade_band,held=187; target=153; no order
-2025-09-30,DHO,within_no_trade_band,held=310; target=338; no order
-2025-09-30,DYT,within_no_trade_band,held=56; target=68; no order
-2025-09-30,FBR,within_no_trade_band,held=28; target=40; no order
-2025-09-30,IAM,within_no_trade_band,held=304; target=398; no order
-2025-09-30,JET,within_no_trade_band,held=9; target=10; no order
-2025-09-30,LHM,within_no_trade_band,held=23; target=24; no order
-2025-09-30,MSA,within_no_trade_band,held=45; target=43; no order
-2025-09-30,NKL,within_no_trade_band,held=482; target=340; no order
-2025-09-30,RDS,within_no_trade_band,held=141; target=123; no order
-2025-09-30,SID,within_no_trade_band,held=11; target=12; no order
-2025-09-30,SMI,within_no_trade_band,held=9; target=10; no order
-2025-09-30,SOT,within_no_trade_band,held=17; target=15; no order
-2025-09-30,STR,within_no_trade_band,held=49; target=68; no order
-2025-09-30,TMA,within_no_trade_band,held=19; target=18; no order
-2025-09-30,TQM,within_no_trade_band,held=7; target=12; no order
+2025-07-31,ADH,within_no_trade_band,held=518; target=659; no order
+2025-07-31,ADI,within_no_trade_band,held=55; target=56; no order
+2025-07-31,ATW,within_no_trade_band,held=62; target=61; no order
+2025-07-31,BOA,within_no_trade_band,held=94; target=105; no order
+2025-07-31,CDM,within_no_trade_band,held=27; target=28; no order
+2025-07-31,CFG,within_no_trade_band,held=179; target=134; no order
+2025-07-31,CIH,within_no_trade_band,held=69; target=66; no order
+2025-07-31,CMA,within_no_trade_band,held=16; target=14; no order
+2025-07-31,CSR,within_no_trade_band,held=161; target=126; no order
+2025-07-31,DHO,within_no_trade_band,held=266; target=268; no order
+2025-07-31,FBR,within_no_trade_band,held=50; target=33; no order
+2025-07-31,HPS,within_no_trade_band,held=57; target=60; no order
+2025-07-31,IAM,within_no_trade_band,held=262; target=277; no order
+2025-07-31,JET,within_no_trade_band,held=11; target=10; no order
+2025-07-31,LBV,within_no_trade_band,held=6; target=5; no order
+2025-07-31,MNG,within_no_trade_band,held=6; target=5; no order
+2025-07-31,MSA,within_no_trade_band,held=40; target=33; no order
+2025-07-31,MUT,within_no_trade_band,held=153; target=130; no order
+2025-07-31,RDS,within_no_trade_band,held=122; target=126; no order
+2025-07-31,RIS,within_no_trade_band,held=86; target=65; no order
+2025-07-31,SID,within_no_trade_band,held=10; target=9; no order
+2025-07-31,SMI,within_no_trade_band,held=8; target=7; no order
+2025-07-31,SNP,within_no_trade_band,held=46; target=41; no order
+2025-07-31,SOT,within_no_trade_band,held=15; target=10; no order
+2025-07-31,STR,within_no_trade_band,held=0; target=49; no order
+2025-07-31,TMA,within_no_trade_band,held=18; target=15; no order
+2025-07-31,TQM,within_no_trade_band,held=9; target=7; no order
+2025-08-29,ADH,within_no_trade_band,held=518; target=592; no order
+2025-08-29,ADI,within_no_trade_band,held=55; target=47; no order
+2025-08-29,ATW,within_no_trade_band,held=62; target=53; no order
+2025-08-29,BCP,within_no_trade_band,held=101; target=104; no order
+2025-08-29,BOA,within_no_trade_band,held=94; target=110; no order
+2025-08-29,CDM,within_no_trade_band,held=27; target=26; no order
+2025-08-29,CMA,within_no_trade_band,held=16; target=13; no order
+2025-08-29,CSR,within_no_trade_band,held=161; target=126; no order
+2025-08-29,DHO,within_no_trade_band,held=266; target=241; no order
+2025-08-29,HPS,within_no_trade_band,held=57; target=62; no order
+2025-08-29,IAM,within_no_trade_band,held=262; target=282; no order
+2025-08-29,JET,within_no_trade_band,held=11; target=7; no order
+2025-08-29,LBV,within_no_trade_band,held=6; target=5; no order
+2025-08-29,LHM,within_no_trade_band,held=20; target=17; no order
+2025-08-29,MDP,within_no_trade_band,held=0; target=353; no order
+2025-08-29,MNG,within_no_trade_band,held=6; target=4; no order
+2025-08-29,MSA,within_no_trade_band,held=40; target=31; no order
+2025-08-29,RDS,within_no_trade_band,held=122; target=116; no order
+2025-08-29,SID,within_no_trade_band,held=10; target=8; no order
+2025-08-29,SMI,within_no_trade_band,held=8; target=7; no order
+2025-08-29,SNP,within_no_trade_band,held=46; target=40; no order
+2025-08-29,SOT,within_no_trade_band,held=15; target=10; no order
+2025-08-29,STR,within_no_trade_band,held=0; target=41; no order
+2025-08-29,TMA,within_no_trade_band,held=18; target=15; no order
+2025-08-29,TQM,within_no_trade_band,held=9; target=7; no order
+2025-09-30,ADI,within_no_trade_band,held=55; target=52; no order
+2025-09-30,AKT,within_no_trade_band,held=23; target=26; no order
+2025-09-30,BCP,within_no_trade_band,held=101; target=125; no order
+2025-09-30,BOA,within_no_trade_band,held=94; target=119; no order
+2025-09-30,CDM,within_no_trade_band,held=27; target=33; no order
+2025-09-30,CFG,within_no_trade_band,held=127; target=140; no order
+2025-09-30,CIH,within_no_trade_band,held=69; target=74; no order
+2025-09-30,CMA,within_no_trade_band,held=16; target=11; no order
+2025-09-30,CMT,within_no_trade_band,held=6; target=7; no order
+2025-09-30,COL,within_no_trade_band,held=181; target=191; no order
+2025-09-30,CSR,within_no_trade_band,held=161; target=127; no order
+2025-09-30,DHO,within_no_trade_band,held=266; target=281; no order
+2025-09-30,DYT,within_no_trade_band,held=47; target=57; no order
+2025-09-30,FBR,within_no_trade_band,held=24; target=33; no order
+2025-09-30,IAM,within_no_trade_band,held=262; target=331; no order
+2025-09-30,JET,within_no_trade_band,held=11; target=8; no order
+2025-09-30,MNG,within_no_trade_band,held=6; target=5; no order
+2025-09-30,MSA,within_no_trade_band,held=40; target=36; no order
+2025-09-30,NKL,within_no_trade_band,held=412; target=284; no order
+2025-09-30,RDS,within_no_trade_band,held=122; target=103; no order
+2025-09-30,SOT,within_no_trade_band,held=15; target=12; no order
+2025-09-30,STR,within_no_trade_band,held=0; target=56; no order
+2025-09-30,TMA,within_no_trade_band,held=18; target=15; no order
+2025-09-30,TQM,within_no_trade_band,held=9; target=10; no order
 2025-10-01,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-10-07,RIS,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-10-08,S2M,no_fill,No observed trades; carried closing price is not executable
 2025-10-09,S2M,no_fill,No observed trades; carried closing price is not executable
 2025-10-10,S2M,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-10-14,S2M,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-10-14,S2M,order_expired,Unfilled quantity=-12
-2025-10-31,ADI,within_no_trade_band,held=46; target=48; no order
-2025-10-31,AKT,within_no_trade_band,held=32; target=24; no order
-2025-10-31,CDM,within_no_trade_band,held=34; target=40; no order
-2025-10-31,CFG,within_no_trade_band,held=159; target=139; no order
-2025-10-31,CIH,within_no_trade_band,held=81; target=91; no order
-2025-10-31,CMA,within_no_trade_band,held=15; target=13; no order
-2025-10-31,CMT,within_no_trade_band,held=8; target=9; no order
-2025-10-31,COL,within_no_trade_band,held=212; target=244; no order
-2025-10-31,CSR,within_no_trade_band,held=187; target=146; no order
-2025-10-31,DHO,within_no_trade_band,held=310; target=307; no order
-2025-10-31,DWY,within_no_trade_band,held=34; target=37; no order
-2025-10-31,DYT,within_no_trade_band,held=56; target=78; no order
-2025-10-31,FBR,within_no_trade_band,held=28; target=38; no order
-2025-10-31,IAM,within_no_trade_band,held=304; target=381; no order
-2025-10-31,JET,within_no_trade_band,held=9; target=10; no order
-2025-10-31,LHM,within_no_trade_band,held=23; target=22; no order
-2025-10-31,MSA,within_no_trade_band,held=45; target=42; no order
-2025-10-31,NKL,within_no_trade_band,held=482; target=288; no order
-2025-10-31,RDS,within_no_trade_band,held=141; target=111; no order
-2025-10-31,RIS,within_no_trade_band,held=70; target=71; no order
-2025-10-31,SID,within_no_trade_band,held=11; target=13; no order
-2025-10-31,SMI,within_no_trade_band,held=9; target=10; no order
-2025-10-31,SOT,within_no_trade_band,held=17; target=14; no order
-2025-10-31,STR,within_no_trade_band,held=49; target=43; no order
-2025-10-31,TMA,within_no_trade_band,held=19; target=18; no order
-2025-10-31,TQM,within_no_trade_band,held=7; target=11; no order
-2025-11-28,CFG,within_no_trade_band,held=159; target=190; no order
-2025-11-28,CSR,within_no_trade_band,held=187; target=208; no order
-2025-11-28,DHO,within_no_trade_band,held=310; target=459; no order
-2025-11-28,DWY,within_no_trade_band,held=34; target=44; no order
-2025-11-28,NKL,within_no_trade_band,held=482; target=436; no order
-2025-11-28,RDS,within_no_trade_band,held=141; target=165; no order
-2025-11-28,RIS,within_no_trade_band,held=70; target=89; no order
-2025-11-28,SMI,within_no_trade_band,held=9; target=13; no order
-2025-11-28,SOT,within_no_trade_band,held=17; target=20; no order
-2025-11-28,STR,within_no_trade_band,held=49; target=66; no order
-2025-11-28,TMA,within_no_trade_band,held=19; target=23; no order
+2025-10-14,S2M,order_expired,Unfilled quantity=-8
+2025-10-31,ADI,within_no_trade_band,held=55; target=41; no order
+2025-10-31,AKT,within_no_trade_band,held=23; target=20; no order
+2025-10-31,ATW,within_no_trade_band,held=62; target=55; no order
+2025-10-31,BCP,within_no_trade_band,held=101; target=103; no order
+2025-10-31,BOA,within_no_trade_band,held=94; target=106; no order
+2025-10-31,CDM,within_no_trade_band,held=27; target=34; no order
+2025-10-31,CFG,within_no_trade_band,held=127; target=118; no order
+2025-10-31,CIH,within_no_trade_band,held=69; target=78; no order
+2025-10-31,CMA,within_no_trade_band,held=16; target=11; no order
+2025-10-31,CMT,within_no_trade_band,held=6; target=8; no order
+2025-10-31,COL,within_no_trade_band,held=181; target=208; no order
+2025-10-31,CSR,within_no_trade_band,held=161; target=124; no order
+2025-10-31,DHO,within_no_trade_band,held=266; target=262; no order
+2025-10-31,DWY,within_no_trade_band,held=28; target=32; no order
+2025-10-31,DYT,within_no_trade_band,held=47; target=67; no order
+2025-10-31,FBR,within_no_trade_band,held=24; target=33; no order
+2025-10-31,IAM,within_no_trade_band,held=262; target=325; no order
+2025-10-31,JET,within_no_trade_band,held=11; target=8; no order
+2025-10-31,LHM,within_no_trade_band,held=20; target=19; no order
+2025-10-31,MNG,within_no_trade_band,held=6; target=5; no order
+2025-10-31,MSA,within_no_trade_band,held=40; target=35; no order
+2025-10-31,NKL,within_no_trade_band,held=412; target=245; no order
+2025-10-31,RDS,within_no_trade_band,held=122; target=95; no order
+2025-10-31,RIS,within_no_trade_band,held=59; target=60; no order
+2025-10-31,SID,within_no_trade_band,held=10; target=11; no order
+2025-10-31,SOT,within_no_trade_band,held=15; target=12; no order
+2025-10-31,STR,within_no_trade_band,held=0; target=36; no order
+2025-10-31,TMA,within_no_trade_band,held=18; target=15; no order
+2025-11-28,ADI,within_no_trade_band,held=55; target=58; no order
+2025-11-28,AKT,within_no_trade_band,held=23; target=27; no order
+2025-11-28,ATW,within_no_trade_band,held=62; target=78; no order
+2025-11-28,CFG,within_no_trade_band,held=127; target=161; no order
+2025-11-28,COL,within_no_trade_band,held=181; target=309; no order
+2025-11-28,CSR,within_no_trade_band,held=161; target=176; no order
+2025-11-28,DHO,within_no_trade_band,held=266; target=389; no order
+2025-11-28,DWY,within_no_trade_band,held=28; target=37; no order
+2025-11-28,JET,within_no_trade_band,held=11; target=12; no order
+2025-11-28,LBV,within_no_trade_band,held=6; target=8; no order
+2025-11-28,MSA,within_no_trade_band,held=40; target=51; no order
+2025-11-28,NKL,within_no_trade_band,held=412; target=370; no order
+2025-11-28,RDS,within_no_trade_band,held=122; target=140; no order
+2025-11-28,RIS,within_no_trade_band,held=59; target=76; no order
+2025-11-28,SID,within_no_trade_band,held=10; target=15; no order
+2025-11-28,SMI,within_no_trade_band,held=8; target=11; no order
+2025-11-28,SOT,within_no_trade_band,held=15; target=17; no order
+2025-11-28,TMA,within_no_trade_band,held=18; target=19; no order
+2025-11-28,TQM,within_no_trade_band,held=9; target=13; no order
 2025-12-01,CMA,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-01,DYT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-01,CMT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-12-01,SID,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-02,CMT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-12-02,LBV,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-03,CMT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-12-03,SID,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-05,CMT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2025-12-09,DYT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2025-12-12,COL,order_expired,Unfilled quantity=24
-2025-12-12,DYT,order_expired,Unfilled quantity=-30
-2025-12-31,ADI,within_no_trade_band,held=68; target=79; no order
-2025-12-31,AKT,within_no_trade_band,held=32; target=37; no order
-2025-12-31,CFG,within_no_trade_band,held=159; target=170; no order
-2025-12-31,CMT,within_no_trade_band,held=16; target=14; no order
-2025-12-31,CSR,within_no_trade_band,held=187; target=212; no order
-2025-12-31,DHO,within_no_trade_band,held=310; target=376; no order
-2025-12-31,IAM,within_no_trade_band,held=536; target=636; no order
-2025-12-31,JET,within_no_trade_band,held=14; target=15; no order
-2025-12-31,LBV,within_no_trade_band,held=10; target=8; no order
-2025-12-31,MSA,within_no_trade_band,held=60; target=64; no order
-2025-12-31,NKL,within_no_trade_band,held=482; target=481; no order
-2025-12-31,RDS,within_no_trade_band,held=141; target=200; no order
-2025-12-31,RIS,within_no_trade_band,held=70; target=94; no order
-2025-12-31,SID,within_no_trade_band,held=18; target=20; no order
-2025-12-31,SMI,within_no_trade_band,held=9; target=7; no order
-2025-12-31,STR,within_no_trade_band,held=49; target=84; no order
-2025-12-31,TMA,within_no_trade_band,held=19; target=25; no order
+2025-12-12,DYT,order_expired,Unfilled quantity=-21
+2025-12-31,ADI,within_no_trade_band,held=55; target=64; no order
+2025-12-31,AKT,within_no_trade_band,held=23; target=30; no order
+2025-12-31,ATW,within_no_trade_band,held=62; target=75; no order
+2025-12-31,BOA,within_no_trade_band,held=157; target=145; no order
+2025-12-31,CFG,within_no_trade_band,held=127; target=138; no order
+2025-12-31,CMT,within_no_trade_band,held=14; target=12; no order
+2025-12-31,CSR,within_no_trade_band,held=161; target=172; no order
+2025-12-31,DHO,within_no_trade_band,held=266; target=305; no order
+2025-12-31,IAM,within_no_trade_band,held=454; target=516; no order
+2025-12-31,JET,within_no_trade_band,held=11; target=12; no order
+2025-12-31,LBV,within_no_trade_band,held=6; target=7; no order
+2025-12-31,MNG,within_no_trade_band,held=6; target=5; no order
+2025-12-31,MSA,within_no_trade_band,held=40; target=52; no order
+2025-12-31,NKL,within_no_trade_band,held=412; target=391; no order
+2025-12-31,RDS,within_no_trade_band,held=122; target=162; no order
+2025-12-31,RIS,within_no_trade_band,held=59; target=76; no order
+2025-12-31,SMI,within_no_trade_band,held=8; target=6; no order
+2025-12-31,STR,within_no_trade_band,held=56; target=68; no order
+2025-12-31,TMA,within_no_trade_band,held=18; target=20; no order
+2025-12-31,TQM,within_no_trade_band,held=9; target=13; no order
 2026-01-02,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-01-05,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-01-05,SOT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
@@ -323,50 +366,42 @@ date,ticker,event,detail
 2026-01-15,DWY,no_fill,No observed trades; carried closing price is not executable
 2026-01-15,DYT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-01-16,DWY,no_fill,No observed trades; carried closing price is not executable
-2026-01-16,COL,order_expired,Unfilled quantity=-101
-2026-01-16,DWY,order_expired,Unfilled quantity=-20
-2026-01-16,DYT,order_expired,Unfilled quantity=-1
+2026-01-16,DWY,order_expired,Unfilled quantity=-14
+2026-01-30,CMT,within_no_trade_band,held=14; target=10; no order
+2026-01-30,MNG,within_no_trade_band,held=6; target=5; no order
 2026-02-02,CDM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-02,DWY,no_fill,No observed trades; carried closing price is not executable
-2026-02-02,DYT,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-03,DWY,no_fill,No observed trades; carried closing price is not executable
 2026-02-04,CDM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-04,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-06,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-12,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-02-13,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2026-02-13,DWY,order_expired,Unfilled quantity=-9
-2026-02-13,NKL,order_expired,Unfilled quantity=-28
-2026-02-27,MSA,within_no_trade_band,held=97; target=107; no order
+2026-02-13,DWY,order_expired,Unfilled quantity=-3
+2026-02-27,ATW,within_no_trade_band,held=119; target=126; no order
+2026-02-27,SMI,within_no_trade_band,held=4; target=5; no order
 2026-03-02,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2026-03-09,DWY,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-03-30,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
-2026-03-31,CMT,within_no_trade_band,held=20; target=24; no order
-2026-03-31,MSA,within_no_trade_band,held=97; target=107; no order
-2026-03-31,RDS,within_no_trade_band,held=563; target=579; no order
-2026-03-31,RIS,within_no_trade_band,held=266; target=271; no order
-2026-03-31,SMI,within_no_trade_band,held=11; target=13; no order
+2026-03-31,MSA,within_no_trade_band,held=111; target=112; no order
 2026-04-03,SID,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-04-06,SID,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2026-04-30,CMT,within_no_trade_band,held=20; target=15; no order
-2026-04-30,MSA,within_no_trade_band,held=97; target=108; no order
-2026-04-30,RDS,within_no_trade_band,held=563; target=546; no order
-2026-04-30,RIS,within_no_trade_band,held=266; target=256; no order
-2026-04-30,SMI,within_no_trade_band,held=11; target=9; no order
+2026-04-06,CMT,preemptive_trim_queued,weight=0.09711401; next-session target=21
+2026-04-06,MNG,preemptive_trim_queued,weight=0.09357480; next-session target=8
+2026-04-06,SMI,preemptive_trim_queued,weight=0.09387960; next-session target=11
+2026-04-30,MSA,within_no_trade_band,held=111; target=116; no order
+2026-04-30,RIS,within_no_trade_band,held=285; target=241; no order
 2026-05-07,SBM,no_fill,No observed trades; carried closing price is not executable
-2026-05-07,SMI,preemptive_trim_queued,weight=0.09298348; next-session target=9
 2026-05-08,SBM,no_fill,No observed trades; carried closing price is not executable
 2026-05-11,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-05-12,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-05-13,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2026-05-13,CMT,preemptive_trim_queued,weight=0.09303142; next-session target=17
-2026-05-13,SMI,preemptive_trim_queued,weight=0.09726555; next-session target=7
 2026-05-14,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-05-15,SBM,no_fill,No observed trades; carried closing price is not executable
-2026-05-15,SBM,order_expired,Unfilled quantity=31
-2026-05-26,HPS,within_no_trade_band,held=146; target=145; no order
-2026-05-26,MSA,within_no_trade_band,held=97; target=108; no order
-2026-05-26,RDS,within_no_trade_band,held=563; target=532; no order
+2026-05-15,SBM,order_expired,Unfilled quantity=30
+2026-05-26,ATW,within_no_trade_band,held=140; target=138; no order
+2026-05-26,HPS,within_no_trade_band,held=143; target=157; no order
+2026-05-26,MNG,within_no_trade_band,held=4; target=5; no order
+2026-05-26,MSA,within_no_trade_band,held=111; target=117; no order
 2026-06-01,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-06-03,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-06-04,SBM,no_fill,No observed trades; carried closing price is not executable
@@ -375,11 +410,12 @@ date,ticker,event,detail
 2026-06-09,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-06-10,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
 2026-06-11,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
-2026-06-12,SBM,order_expired,Unfilled quantity=31
-2026-06-30,CMT,within_no_trade_band,held=17; target=19; no order
-2026-06-30,HPS,within_no_trade_band,held=146; target=135; no order
-2026-06-30,MSA,within_no_trade_band,held=97; target=101; no order
-2026-06-30,RDS,within_no_trade_band,held=563; target=498; no order
+2026-06-12,SBM,order_expired,Unfilled quantity=34
+2026-06-30,ATW,within_no_trade_band,held=140; target=133; no order
+2026-06-30,CMT,within_no_trade_band,held=19; target=20; no order
+2026-06-30,HPS,within_no_trade_band,held=143; target=144; no order
+2026-06-30,MSA,within_no_trade_band,held=111; target=108; no order
+2026-06-30,RDS,within_no_trade_band,held=577; target=529; no order
 2026-07-01,SBM,no_fill,No observed trades; carried closing price is not executable
 2026-07-01,JET,no_fill,No observed trades; carried closing price is not executable
 2026-07-02,SBM,no_fill,"Participation, cash or position cap prevents a whole-share fill"
@@ -391,12 +427,14 @@ date,ticker,event,detail
 2026-07-22,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-07-23,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-07-24,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
+2026-07-27,MNG,split,ratio=10.0; fractional cash-in-lieu at close if needed
 2026-07-27,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-07-28,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-07-29,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-07-31,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
-2026-07-31,HPS,within_no_trade_band,held=146; target=143; no order
-2026-07-31,RDS,within_no_trade_band,held=563; target=504; no order
+2026-07-31,HPS,within_no_trade_band,held=143; target=152; no order
+2026-07-31,MNG,within_no_trade_band,held=60; target=68; no order
+2026-07-31,RDS,within_no_trade_band,held=577; target=535; no order
 2026-08-03,CMT,no_fill,No observed trades; carried closing price is not executable
 2026-08-03,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-04,CMT,no_fill,No observed trades; carried closing price is not executable
@@ -416,18 +454,19 @@ date,ticker,event,detail
 2026-08-13,CMT,no_fill,No observed trades; carried closing price is not executable
 2026-08-13,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-17,CMT,no_fill,No observed trades; carried closing price is not executable
-2026-08-17,CMT,order_expired,Unfilled quantity=-17
+2026-08-17,CMT,order_expired,Unfilled quantity=-19
 2026-08-17,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-18,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-19,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-24,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
-2026-08-24,RDS,preemptive_trim_queued,weight=0.09433106; next-session target=477
+2026-08-24,MNG,preemptive_trim_queued,weight=0.09389319; next-session target=51
 2026-08-27,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-28,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-08-31,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
-2026-08-31,HPS,within_no_trade_band,held=146; target=131; no order
-2026-08-31,RDS,within_no_trade_band,held=477; target=480; no order
-2026-08-31,SMI,within_no_trade_band,held=14; target=12; no order
+2026-08-31,HPS,within_no_trade_band,held=143; target=141; no order
+2026-08-31,MNG,within_no_trade_band,held=51; target=54; no order
+2026-08-31,RDS,within_no_trade_band,held=577; target=520; no order
+2026-08-31,SMI,within_no_trade_band,held=15; target=13; no order
 2026-09-01,CMT,no_fill,No observed trades; carried closing price is not executable
 2026-09-01,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-09-02,CMT,no_fill,No observed trades; carried closing price is not executable
@@ -447,9 +486,12 @@ date,ticker,event,detail
 2026-09-11,CMT,no_fill,No observed trades; carried closing price is not executable
 2026-09-11,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-09-14,CMT,no_fill,No observed trades; carried closing price is not executable
-2026-09-14,CMT,order_expired,Unfilled quantity=-17
+2026-09-14,CMT,order_expired,Unfilled quantity=-19
 2026-09-14,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
 2026-09-15,CMT,stale_valuation,Position carried at last price; liquidation may be impossible
-2026-09-30,HPS,within_no_trade_band,held=146; target=142; no order
-2026-09-30,SMI,within_no_trade_band,held=14; target=13; no order
-2026-10-30,SMI,within_no_trade_band,held=14; target=16; no order
+2026-09-30,HPS,within_no_trade_band,held=143; target=152; no order
+2026-09-30,MNG,within_no_trade_band,held=51; target=57; no order
+2026-09-30,SMI,within_no_trade_band,held=15; target=14; no order
+2026-10-30,MNG,within_no_trade_band,held=51; target=59; no order
+2026-10-30,SMI,within_no_trade_band,held=15; target=17; no order
+2026-11-02,MNG,stale_valuation,Position carried at last price; liquidation may be impossible

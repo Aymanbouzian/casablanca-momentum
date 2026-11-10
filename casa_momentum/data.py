@@ -11,6 +11,9 @@ EXPORT_COLUMNS = {
     "Session": "date", "Ticker": "ticker", "Instrument": "name",
     "Opening": "open", "Last Price": "close", "Volume (MAD)": "volume_mad",
     "Traded Shares": "shares", "High": "high", "Low": "low",
+    # French-language export of the same file
+    "Séance": "date", "Instrument ": "name", "Ouverture": "open", "Dernier Cours": "close",
+    "Plus Haut": "high", "Plus Bas": "low", "Titres Échangés": "shares",
 }
 
 
@@ -36,7 +39,7 @@ def read_price_file(path: Path) -> pd.DataFrame:
     f = pd.read_csv(path, sep=None, engine="python", encoding="utf-8-sig",
                     na_values=["-", "", "NA", "null"])
     f.columns = f.columns.str.strip()
-    exchange_export = "Session" in f
+    exchange_export = "Session" in f or "Séance" in f
     f = f.rename(columns=EXPORT_COLUMNS)
     required = {"date", "ticker", "close", "shares", "volume_mad"}
     if not required <= set(f.columns):

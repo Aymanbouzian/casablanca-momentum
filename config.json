@@ -1,6 +1,6 @@
 {
   "prices_dir": "data/prices",
-  "corporate_actions_file": null,
+  "corporate_actions_file": "data/corporate_actions.csv",
   "metadata_file": "data/universe.csv",
   "cash_rates_file": null,
   "calendar_file": null,

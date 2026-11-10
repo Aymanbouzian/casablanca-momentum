@@ -453,6 +453,57 @@ class EngineTests(unittest.TestCase):
         f["average_volume_mad"] = 2_000_000.
         self.assertTrue(snapshot(data, self.cfg, date).loc["S00", "eligible"])
 
+    def test_french_export_headers_are_read(self):
+        import tempfile, importlib.util
+        from casa_momentum.data import read_price_file
+        text = ("Séance;Ticker;Instrument;Ouverture;Dernier Cours;Plus Haut;Plus Bas;Volume (MAD);"
+                "Titres Échangés;Nb Transactions;Capitalisation\n"
+                "11/09/2026;ATW  ;ATTIJARIWAFA BANK;706.10;705.20;709.00;705.20;27776582.90;39315;99;1.0\n"
+                "10/09/2026;ATW  ;ATTIJARIWAFA BANK;708.60;706.50;710.10;706.50;4674878.40;6597;38;1.0\n")
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Cours_ATW__2026-09-10_2026-09-11.csv"
+            path.write_text(text, encoding="utf-8-sig")
+            f = read_price_file(path)
+        self.assertEqual(set(f.ticker), {"ATW"})
+        latest = f.sort_values("date").iloc[-1]
+        self.assertEqual(float(latest.close), 705.2)
+        self.assertEqual(int(latest.shares), 39315)
+
+    def _merge_module(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("merge_exports", Path(__file__).resolve().parents[1] / "scripts/merge_exports.py")
+        mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+        return mod
+
+    def _export(self, d, name, ticker, rows):
+        head = "Session;Ticker;Instrument;Opening;Last Price;High;Low;Volume (MAD);Traded Shares;Number of Trades;Market Capitalization\n"
+        lines = "".join(f"{dt};{ticker}  ;X;{c};{c};{c};{c};{v};10;1;1.0\n" for dt, c, v in rows)
+        p = Path(d) / name; p.write_text(head + lines, encoding="utf-8-sig"); return p
+
+    def test_merge_exports_combines_overlap_and_detects_conflicts(self):
+        import tempfile
+        m = self._merge_module()
+        with tempfile.TemporaryDirectory() as d:
+            a = self._export(d, "a.csv", "ATW", [("03/01/2026", 102, 1000), ("02/01/2026", 101, 900)])
+            b = self._export(d, "b.csv", "ATW", [("05/01/2026", 104, 700), ("03/01/2026", 102, 1000)])
+            merged, rep = m.merge([a, b])
+            self.assertEqual(len(merged), 3)
+            self.assertEqual(rep["overlap_sessions"], 1)
+            self.assertEqual(rep["conflicts"], [])
+            self.assertTrue(merged.index.is_monotonic_decreasing)
+            bad = self._export(d, "c.csv", "ATW", [("03/01/2026", 999, 1000)])
+            _, rep2 = m.merge([a, bad])
+            self.assertTrue(any(c[1] == "Last Price" for c in rep2["conflicts"]))
+
+    def test_merge_exports_rejects_different_tickers(self):
+        import tempfile
+        m = self._merge_module()
+        with tempfile.TemporaryDirectory() as d:
+            a = self._export(d, "a.csv", "ATW", [("02/01/2026", 101, 900)])
+            b = self._export(d, "b.csv", "ALM", [("03/01/2026", 102, 1000)])
+            with self.assertRaisesRegex(ValueError, "different tickers"):
+                m.merge([a, b])
+
 
 if __name__ == "__main__":
     unittest.main()
